@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="TN_App" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="TN_App" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="TN_App" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="TN_App" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Margreth</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+  <link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.min.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="lib.d3/nvd3.css"/>
+  <link rel="stylesheet" href="styles/app.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.min.css"/> -->
+  
+</head>
+<body>
+  <!-- <ul class="menu">
+    <li><a href="#!/chatbot">ChatBot</a></li>
+    <li><a href="#!/alfredApp">Alfred</a></li>
+  </ul> -->
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ui-view></div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="bower_components/angular-ui-select/dist/select.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
+  <script src="bower_components/angular-file-upload/dist/angular-file-upload.min.js"></script>
+
+  <!-- Angular Sanatize -->
+
+  <script src="alfredApp/lib/angular-sanitize.min.js"></script>
+
+
+  <script src="app.js"></script>
+  <script src="alfredApp/chat-bot.app.js"></script>
+  <script src="alfredApp/insurance.js"></script>
+  <script src="alfredApp/banking.js"></script>
+  <script src="alfredApp/insurance_internal.js"></script>
+  <script src="alfredApp/chat-popup.ctrl.js"></script>
+  <script src="alfredApp/landing-screen.ctrl.js"></script>
+  <script src="alfredApp/directives.js"></script>
+  <script src="alfredApp/services.js"></script>
+
+
+  <script src="alfredApp/lib/ApiAi.js"></script>
+  <script src="alfredApp/lib/ApiAi.min.js"></script>
+  <script src="alfredApp/lib/ApiAi.Streamless.js"></script>
+  <script src="alfredApp/lib/ApiAi.Streamless.min.js"></script>
+  <script src="alfredApp/lib/angular-fusioncharts.min.js"></script>
+  <script src="alfredApp/lib/fusioncharts/fusioncharts.js"></script>
+  <script src="alfredApp/lib/google-maps/google-apis-maps-jquery.min.js"></script>
+  <script src="alfredApp/lib/google-maps/google-apis-maps-with-api-key.js"></script>
+  <!-- for speech to text -->
+  <script src="alfredApp/lib/ng-speech/ng-speech-directive.js"></script>
+  <!-- for speech to text -->
+
+  <!-- for text to speech -->
+   <script src="https://cdn.pubnub.com/pubnub-3.15.1.min.js"></script>
+   <script src="https://cdn.pubnub.com/sdk/pubnub-angular/pubnub-angular-3.2.1.min.js"></script>
+
+<!-- <script src="https://cdn.pubnub.com/sdk/pubnub-angular/pubnub-angular-4.0.2.min.js"></script> -->
+
+
+   <!-- for text to speech -->
+
+   <!-- for d3 graph -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.min.js"></script>
+  <!-- <script src="alfredApp/lib/d3/d3.min.js"></script>
+  <script src="alfredApp/lib/d3/nvd3.js"></script> -->
+  <!-- for d3 graph -->s
+
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+
+
+</body>
+</html>
